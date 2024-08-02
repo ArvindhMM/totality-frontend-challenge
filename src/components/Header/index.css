@@ -25,7 +25,7 @@ header h1 {
     margin-left: auto;
 }
 
-.headerButton {
+.headerButtons {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,4 +33,11 @@ header h1 {
     margin: 5px;
     background: none;
     border: none;
+    font-size: large;
+}
+.headerButtons:hover{
+    font-size: larger;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
 }

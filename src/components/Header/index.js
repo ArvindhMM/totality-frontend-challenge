@@ -9,12 +9,13 @@ import { CartContext } from '../../CartContext';
 
 const Header = () => {
     const {cart} = useContext(CartContext);
+    const lengthOfCart = cart.length
     return(
         <header>
             <h1>Rental Properties</h1> 
             <div className='headerButtonsContainer'>
-                <Link to = '/'><button className='headerButton'><GoHome /></button></Link>
-                <Link to = '/cart'><button className='headerButton'><GiShoppingCart /> <span>({cart.length})</span></button></Link>
+                <Link to = '/'><button className='headerButtons'><GoHome /></button></Link>
+                <Link to = '/cart'><button className='headerButtons'><GiShoppingCart /> <span>({lengthOfCart})</span></button></Link>
             </div>
         </header>
     )
