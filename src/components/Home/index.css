@@ -1,0 +1,24 @@
+.propertyListings{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+.filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.filterItem{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.filterItem select{
+    margin-left: 3px;
+}
+.HomeContainer select{
+    padding: 5px;
+    border-radius: 10px;
+}
+

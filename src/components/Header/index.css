@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    height: 50px;
+    background-color: rgb(245, 133, 92);
+    width: 100%;
+    font-size: clamp(12px, 16px, 20px);
+    position: relative;
+}
+
+header h1 {
+    font-size: clamp(16px, 20px, 24px);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.headerButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.headerButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    background: none;
+    border: none;
+}
