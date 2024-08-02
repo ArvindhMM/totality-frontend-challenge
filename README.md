@@ -32,6 +32,8 @@ Rental App is a property rental platform built using React. It features property
     ```sh
     npm start
     ```
+## Deployment
+The app is deployed on Netlify. You can access it [here](https://totality-frontend-challenge-arvindh.netlify.app).
 
 ## Usage
 - **Home Page**: Browse through the list of available properties.
