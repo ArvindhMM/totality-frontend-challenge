@@ -74,7 +74,7 @@ const Cart = () => {
                   <label htmlFor='amount'>Payable Amount:</label>
                   <input type='text' id='amount' name='amount' value={`₹${getBalance()}/-`} readOnly />
                 </div>
-                <button type='submit' className='payButton'>Pay</button>
+                <button className='payButton'>Pay</button>
               </form>
             </div>
           </div>
